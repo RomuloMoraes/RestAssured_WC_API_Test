@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.wcapi.test.WcApiRestTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.785 s <<< FAILURE! - in com.wcapi.test.WcApiRestTest
+whenAccountHasBalance_thenCheckTheBalance(com.wcapi.test.WcApiRestTest)  Time elapsed: 3.076 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path find{it.conta_id == 1562804}.saldo doesn't match.
+Expected: is "200.00"
+  Actual: 1700.00
+
+	at com.wcapi.test.WcApiRestTest.whenAccountHasBalance_thenCheckTheBalance(WcApiRestTest.java:259)
+

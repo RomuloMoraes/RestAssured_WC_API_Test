@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.wcapi.test.WcApiRestTest" time="40.785" tests="11" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Manaus"/>
+    <property name="user.country.format" value="BR"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4\bin"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2 clean install"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\plugins\maven\lib\maven3"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Romulo Moraes"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4+11-LTS-179"/>
+    <property name="user.name" value="Romulo Moraes"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ROMULO~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.2"/>
+    <property name="java.version" value="17.0.4"/>
+    <property name="user.dir" value="C:\Users\Romulo Moraes\Documents\projects\test\RestAssured\RestAssured_WC_API_Test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Romulo Moraes\Documents\projects\test\RestAssured\RestAssured_WC_API_Test"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="pt"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.4\bin;C:\Users\Romulo Moraes\Documents\projects\tools\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Romulo Moraes\Documents\projects\tools\terraform_1.4.6;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\Romulo Moraes\Documents\projects\tools\allure-2.22.0\bin;C:\Users\Romulo Moraes\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;;C:\Users\Romulo Moraes\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.4+11-LTS-179"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="whenInsertAMovementPT_thenOperationOk" classname="com.wcapi.test.WcApiRestTest" time="7.526"/>
+  <testcase name="whenRequestToUpdateAccount_thenAccountIsUpdated" classname="com.wcapi.test.WcApiRestTest" time="5.068"/>
+  <testcase name="whenInsertAccountWithSameName_thenNotAuthorized" classname="com.wcapi.test.WcApiRestTest" time="2.556"/>
+  <testcase name="whenInsertAMovementPTWithoutTransactionDate_thenOperationNotOk" classname="com.wcapi.test.WcApiRestTest" time="3.066"/>
+  <testcase name="whenInsertAMovementPT2WithoutDescription_thenOperationNotOk" classname="com.wcapi.test.WcApiRestTest" time="2.403"/>
+  <testcase name="whenDeleteAccount_thenAccountIsDeleted" classname="com.wcapi.test.WcApiRestTest" time="5.113"/>
+  <testcase name="whenInsertAMovementPTWithTransactionFutureDate_thenOperationNotOk" classname="com.wcapi.test.WcApiRestTest" time="2.409"/>
+  <testcase name="whenRequestAccessWithoutToken_thenAccessNotGranted" classname="com.wcapi.test.WcApiRestTest" time="2.355"/>
+  <testcase name="whenAccountHasBalance_thenCheckTheBalance" classname="com.wcapi.test.WcApiRestTest" time="3.076">
+    <failure message="1 expectation failed.&#10;JSON path find{it.conta_id == 1562804}.saldo doesn&apos;t match.&#10;Expected: is &quot;200.00&quot;&#10;  Actual: 1700.00&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+1 expectation failed.
+JSON path find{it.conta_id == 1562804}.saldo doesn't match.
+Expected: is "200.00"
+  Actual: 1700.00
+
+	at com.wcapi.test.WcApiRestTest.whenAccountHasBalance_thenCheckTheBalance(WcApiRestTest.java:259)
+</failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://barrigarest.wcaquino.me:443/saldo
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MzYxMzh9.EcQvnUXQMJr0N7qiSxGP-LtwG4XR0HOPuUEcFy5iCUA
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+HTTP/1.1 200 OK
+Server: nginx/1.12.1 (Ubuntu)
+Date: Mon, 29 May 2023 20:53:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 130
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"82-TQJNBL0zFLgt99DZ7b/D1zdxyLg"
+
+[
+    {
+        "conta_id": 1559166,
+        "conta": "Fulano Ferreira",
+        "saldo": "100.00"
+    },
+    {
+        "conta_id": 1562804,
+        "conta": "Beltrano Barros",
+        "saldo": "1700.00"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="whenAccountHasMovement_thenCanNotDeleteAccount" classname="com.wcapi.test.WcApiRestTest" time="2.45"/>
+  <testcase name="whenRequestIncludingAccount_thenAccountIsIncluded" classname="com.wcapi.test.WcApiRestTest" time="2.325"/>
+</testsuite>
